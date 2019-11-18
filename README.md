@@ -1,6 +1,7 @@
-# Docker image for building TeX documents
+# Docker image for building TeX documents with tuda-ci
 
-See https://github.com/tudace/tuda_latex_templates for some templates.
+This Docker image is published as [`vsund/latex-tuda-ci`](https://hub.docker.com/r/vsund/latex-tuda-ci) on Docker Hub. See [this repository](https://github.com/tudace/tuda_latex_templates) for some templates to build.
+
 This image is based on [`blang/latex:ctanbasic`](https://github.com/blang/latex-docker/blob/master/Dockerfile.basic).
 
 Please also note that this image works for what I tried to do. Feel free to fork adapt, and clean up :)
