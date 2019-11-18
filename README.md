@@ -1,0 +1,16 @@
+# Docker image for building TeX documents
+
+See https://github.com/tudace/tuda_latex_templates for some templates.
+This image is based on [`blang/latex:ctanbasic`](https://github.com/blang/latex-docker/blob/master/Dockerfile.basic).
+
+Please also note that this image works for what I tried to do. Feel free to fork adapt, and clean up :)
+
+
+## Usage
+
+Execute something like the following in a directory with your document (or use another path for the mounted volume):
+```
+$ docker run --user $(id -u):$(id -g) --volume "$(pwd)":/data vsund/latex-tuda-ci latexmk -pdflua some-document.tex
+```
+
+Make sure that the file [`tuda_logo.pdf`](https://download.hrz.tu-darmstadt.de/protected/CE/TUDa_LaTeX/tuda_logo.pdf) is also in that directory (you need to log in for downloading it).
