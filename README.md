@@ -4,7 +4,7 @@ This Docker image is published as [`vsund/latex-tuda-ci`](https://hub.docker.com
 
 This image is based on [`blang/latex:ctanbasic`](https://github.com/blang/latex-docker/blob/master/Dockerfile.basic).
 
-Please also note that this image works for what I tried to do. Feel free to fork adapt, and clean up :)
+Please also note that this image works for what I tried to do. Feel free to fork, adapt, and clean up :)
 
 
 ## Usage
