@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV PATH "/usr/local/texlive/2019/bin/x86_64-linux:${PATH}"
+ENV PATH "/usr/local/texlive/2020/bin/x86_64-linux:${PATH}"
 ENV HOME /data
 
 WORKDIR /data
